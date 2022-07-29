@@ -1,0 +1,7 @@
+      {
+        photo.map((singleData) => {
+          <a href={singleData.links}>
+            <img src={singleData.urls.regular} alt={singleData.alt_description} />
+          </a>
+        })
+      }
